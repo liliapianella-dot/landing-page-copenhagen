@@ -54,21 +54,35 @@ header a {
   letter-spacing: 3px;
   /* box-shadow: 0 5px 10px rgba(0,0,0, 0.3); */
 }
-section {
-  /* max-width: 1200px; */
-  padding: 0px 170px;
-}
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+main {
+  background: white;
+}
+/* main h2 {}
+main h3 {
+
+} */
+.reson-to-visit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.reson-to-visit-grid img {
+  max-width: 100%;
+}
 footer {
   color: white;
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url(/images/copenhagen-unsplash-febiyan.png);
+    url(/images/unsplash-line-kjaer.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
 }
 footer .grid {
   display: grid;
